@@ -4,6 +4,7 @@ ClusterGCN
  [![repo size](https://img.shields.io/github/repo-size/benedekrozemberczki/ClusterGCN.svg)](https://github.com/benedekrozemberczki/ClusterGCN/archive/master.zip)
 
 基于pymetis的Cluster-GCN，参考自<https://github.com/benedekrozemberczki/ClusterGCN>，略作修改
+python包版本进行了相应的调整，有任何问题欢迎提交issues
 
 A PyTorch implementation of "Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks" (KDD 2019).
 <p align="center">
@@ -23,23 +24,23 @@ This repository provides a PyTorch implementation of ClusterGCN as described in 
 > [[Paper]](https://arxiv.org/abs/1905.07953)
 
 ### Requirements
-The codebase is implemented in Python 3.5.2. package versions used for development are just below.
+The codebase is implemented in Python 3.7.9, CUDA 11.0(RTX 3090). package versions used for development are just below.
 ```
-networkx           1.11
-tqdm               4.28.1
-numpy              1.15.4
-pandas             0.23.4
+networkx           2.5
+tqdm               4.55.1
+numpy              1.17.0
+pandas             1.2.0
 texttable          1.5.0
-scipy              1.1.0
+scipy              1.5.4
 argparse           1.1.0
-torch              0.4.1
-torch-geometric    0.3.1
-metis              0.2a.4
-scikit-learn       0.20
-torch_spline_conv  1.0.4
-torch_sparse       0.2.2
-torch_scatter      1.0.4
-torch_cluster      1.1.5
+torch              1.7.1
+torch-geometric    1.6.3
+PyMetis            2020.1
+scikit-learn       0.24.0
+torch_spline_conv  1.2.0
+torch_sparse       0.6.8
+torch_scatter      2.0.5
+torch_cluster      1.5.8
 ```
 
 Installing metis on Ubuntu:
