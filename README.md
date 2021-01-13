@@ -3,7 +3,8 @@ ClusterGCN
 [![Arxiv](https://img.shields.io/badge/ArXiv-1905.07953-orange.svg?color=blue&style=plastic)](https://arxiv.org/abs/1905.07953) [![codebeat badge](https://codebeat.co/badges/f7212651-50c6-40bd-9f4c-030ea56f43d3)](https://codebeat.co/projects/github-com-benedekrozemberczki-clustergcn-master)
  [![repo size](https://img.shields.io/github/repo-size/benedekrozemberczki/ClusterGCN.svg)](https://github.com/benedekrozemberczki/ClusterGCN/archive/master.zip)
 
-基于pymetis的Cluster-GCN，参考自<https://github.com/benedekrozemberczki/ClusterGCN>，略作修改
+基于pymetis的Cluster-GCN，参考自<https://github.com/benedekrozemberczki/ClusterGCN>，略作修改  
+
 python包版本进行了相应的调整，有任何问题欢迎提交issues
 
 A PyTorch implementation of "Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks" (KDD 2019).
@@ -24,7 +25,7 @@ This repository provides a PyTorch implementation of ClusterGCN as described in 
 > [[Paper]](https://arxiv.org/abs/1905.07953)
 
 ### Requirements
-The codebase is implemented in Python 3.7.9, CUDA 11.0(RTX 3090). package versions used for development are just below.
+The codebase is implemented in Python 3.7.9, CUDA 11.0(RTX 3090). Package versions used for development are just below.
 ```
 networkx           2.5
 tqdm               4.55.1
